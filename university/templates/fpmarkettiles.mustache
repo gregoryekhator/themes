@@ -1,0 +1,37 @@
+{{#hasmarkettiles}}
+<div class="markettiles">
+    <div class="container-fluid">
+    <div class="row">
+
+        {{#markettiles}}
+        {{#hastile}}
+
+        <div class="col-lg-4 col-md-6 col-sm-12 debonair" >
+        <div class="market-tile">
+
+          <div class="abs">
+            <img src="theme/university/pix/images/{{{tileimage}}}" alt="" id="img">
+          </div>
+            <h3 class="card-title abbas">{{{title}}}</h3>
+            <div class="marketcontent {{{tileimage}}}">
+              <div class="" id="{{{classid}}}">
+                <div class="" style="height:140px; padding:10px;">
+                  {{{content}}}
+                </div>
+                <div class="" style="height:30px">
+                    <center>{{{button}}}</center>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        </div>
+
+        {{/hastile}}
+        {{/markettiles}}
+
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+{{/hasmarkettiles}}
